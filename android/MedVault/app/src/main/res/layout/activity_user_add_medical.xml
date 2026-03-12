@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightGreenBg"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- PAGE TITLE -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Medical History"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/primaryGreen"
+            android:layout_gravity="center"
+            android:layout_marginBottom="24dp"/>
+
+
+        <!-- TITLE LABEL -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/textPrimary"/>
+
+        <!-- TITLE FIELD -->
+        <EditText
+            android:id="@+id/titleEditText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/rect_white"
+            android:padding="12dp"
+            android:hint="Ex: Blood Test / X-Ray Report"
+            android:textColor="@color/textPrimary"
+            android:textColorHint="#797979"/>
+
+
+        <!-- FILE LABEL -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medical File"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/textPrimary"/>
+
+        <!-- FILE SELECT -->
+        <TextView
+            android:id="@+id/fileTextView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/rect_white"
+            android:padding="12dp"
+            android:text="Tap to select file"
+            android:textColor="@color/textPrimary"/>
+
+
+        <!-- DATE LABEL -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date and Time"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/textPrimary"/>
+
+        <!-- DATE FIELD -->
+        <TextView
+            android:id="@+id/dateTimeTextView"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/rect_white"
+            android:padding="12dp"
+            android:text="Select date and time"
+            android:textColor="@color/textPrimary"/>
+
+
+        <!-- NOTES LABEL -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Notes / Description"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/textPrimary"/>
+
+        <!-- NOTES FIELD -->
+        <EditText
+            android:id="@+id/notesEditText"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginBottom="24dp"
+            android:background="@drawable/rect_white"
+            android:padding="12dp"
+            android:hint="Add doctor notes or medical details"
+            android:textColor="@color/textPrimary"
+            android:textColorHint="#797979"/>
+
+
+        <!-- ADD BUTTON -->
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/addButton"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Add Medical Record"
+            android:textSize="17sp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:background="@drawable/rect_bg"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

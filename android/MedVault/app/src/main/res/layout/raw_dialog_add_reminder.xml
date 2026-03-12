@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/cancelIV"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:src="@drawable/cancel_24"
+            android:layout_marginBottom="8dp"
+            android:layout_gravity="end"/>
+
+        <EditText
+            android:id="@+id/titleET"
+            android:hint="Title"
+            android:background="@drawable/rect_white"
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/descpET"
+            android:hint="Description"
+            android:background="@drawable/button_green"
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/timeTV"
+            android:text="Select time"
+            android:padding="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/editbox_background"/>
+
+        <TextView
+            android:id="@+id/startDateTV"
+            android:text="Select start date"
+            android:padding="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@android:drawable/editbox_background"/>
+
+        <EditText
+            android:id="@+id/daysET"
+            android:hint="Number of days"
+            android:inputType="number"
+            android:background="@drawable/rect_white"
+            android:padding="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/saveReminderBtn"
+                android:text="Save Reminder"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"/>
+
+            <Button
+                android:id="@+id/cancelBtn"
+                android:text="Cancel"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
