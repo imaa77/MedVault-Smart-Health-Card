@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lightGreenBg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- TITLE -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create MedVault Account"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/primaryGreen"
+            android:layout_gravity="center"
+            android:layout_marginBottom="30dp"/>
+
+        <!-- NAME -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Full Name"
+            android:textStyle="bold"
+            android:textColor="@color/textPrimary"/>
+
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_modern"
+            android:hint="Enter your full name"
+            android:textColor="@color/textPrimary"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- DOB -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date of Birth"
+            android:textStyle="bold"
+            android:textColor="@color/textPrimary"/>
+
+        <EditText
+            android:id="@+id/dobEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="YYYY-MM-DD"
+            android:background="@drawable/edittext_modern"
+            android:textColor="@color/textPrimary"
+            android:layout_marginBottom="20dp"/>
+
+
+
+
+
+
+        <!-- BLOOD -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Blood Group"
+            android:textStyle="bold"
+            android:textColor="@color/textPrimary"/>
+
+        <EditText
+            android:id="@+id/bloodEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_modern"
+            android:hint="Ex: A+, B+"
+            android:textColor="@color/textPrimary"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- ALLERGIES -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Allergies"
+            android:textStyle="bold"
+            android:textColor="@color/textPrimary"/>
+
+        <EditText
+            android:id="@+id/allergiesEditText"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/edittext_modern"
+            android:hint="List allergies"
+            android:textColor="@color/textPrimary"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- ADDRESS -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address"
+            android:textStyle="bold"
+            android:textColor="@color/textPrimary"/>
+
+        <EditText
+            android:id="@+id/addressEditText"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/edittext_modern"
+            android:hint="Enter address"
+            android:textColor="@color/textPrimary"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- EMAIL -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textStyle="bold"
+            android:textColor="@color/textPrimary"/>
+
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/edittext_modern"
+            android:hint="Enter email"
+            android:textColor="@color/textPrimary"
+            android:layout_marginBottom="20dp"/>
+
+        <!-- PHONE -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone"
+            android:textStyle="bold"
+            android:textColor="@color/textPrimary"/>
+
+        <EditText
+            android:id="@+id/phoneEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:background="@drawable/edittext_modern"
+            android:hint="Enter phone"
+            android:textColor="@color/textPrimary"
+            android:layout_marginBottom="30dp"/>
+
+        <!-- EMERGENCY TITLE -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Emergency Contact"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/primaryGreen"
+            android:layout_marginBottom="15dp"/>
+
+        <EditText
+            android:id="@+id/emergencyNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittext_modern"
+            android:hint="Emergency Contact Name"
+            android:textColor="@color/textPrimary"
+            android:layout_marginBottom="15dp"/>
+
+        <EditText
+            android:id="@+id/emergencyPhoneEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:background="@drawable/edittext_modern"
+            android:hint="Emergency Contact Phone"
+            android:textColor="@color/textPrimary"
+            android:layout_marginBottom="15dp"/>
+
+        <EditText
+            android:id="@+id/emergencyEmailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:background="@drawable/edittext_modern"
+            android:hint="Emergency Contact Email"
+            android:textColor="@color/textPrimary"
+            android:layout_marginBottom="30dp"/>
+
+        <!-- PASSWORD -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textStyle="bold"
+            android:textColor="@color/textPrimary"/>
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:background="@drawable/edittext_modern"
+            android:hint="Create password"
+            android:textColor="@color/textPrimary"
+            android:layout_marginBottom="40dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/registerButton"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Create Account"
+            android:textSize="18sp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:background="@drawable/button_green"/>
+
+    </LinearLayout>
+</ScrollView>
