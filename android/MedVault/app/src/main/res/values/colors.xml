@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- MedVault Theme -->
+    <color name="primary">#2F6F4E</color>
+    <color name="primaryGreen">#2F6F4E</color>
+    <color name="darkGreen">#1F4D36</color>
+    <color name="lightGreenBg">#F2F8F4</color>
+    <color name="fieldBorder">#CDE8D8</color>
+    <color name="accentGreen">#3D8B5F</color>
+
+    <!-- Text -->
+    <color name="textPrimary">#1E2E23</color>
+    <color name="textSecondary">#5E6E63</color>
+
+</resources>
